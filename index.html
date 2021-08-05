@@ -13,7 +13,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
+		<span id="musicControl">
+			        <a id="mc_play" class="on" οnclick="play_music();">
+			            <audio id="musicfx" loop="loop" autoplay="autoplay">
+			                <source src="https://music.163.com/song/media/outer/url?id=370404.mp3" type="audio/mpeg">
+			            </audio>
+			        </a>
+			 </span>
 		<!-- Header -->
 			<section id="header">
 				<header class="major">
@@ -165,13 +171,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<span id="musicControl">
-			        <a id="mc_play" class="on" οnclick="play_music();">
-			            <audio id="musicfx" loop="loop" autoplay="autoplay">
-			                <source src="https://music.163.com/song/media/outer/url?id=370404.mp3" type="audio/mpeg">
-			            </audio>
-			        </a>
-			 </span>
+
 			 <!-- music -->
 			<script>
 			    function play_music(){
